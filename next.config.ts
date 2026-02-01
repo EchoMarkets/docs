@@ -1,7 +1,8 @@
+import withMarkdoc from "@markdoc/next.js";
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  pageExtensions: ["js", "jsx", "md", "ts", "tsx"],
 };
 
-export default nextConfig;
+export default withMarkdoc({ schemaPath: "./markdoc" })(nextConfig);
