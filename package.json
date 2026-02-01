@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@markdoc/markdoc": "^0.5.4",
+    "@markdoc/next.js": "^0.5.0",
     "@sindresorhus/slugify": "^3.0.0",
     "clsx": "^2.1.1",
     "js-yaml": "^4.1.1",
