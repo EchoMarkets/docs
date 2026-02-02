@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@algolia/autocomplete-core": "^1.19.4",
     "@headlessui/react": "^2.2.9",
     "@markdoc/markdoc": "^0.5.4",
     "@markdoc/next.js": "^0.5.0",
