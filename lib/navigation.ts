@@ -2,13 +2,13 @@ export const navigation = [
   {
     title: "Introduction",
     links: [
-      { title: "Overview", href: "/" },
+      { title: "Getting started", href: "/" },
       { title: "Features", href: "/docs/features" },
       { title: "Installation", href: "/docs/installation" },
     ],
   },
   {
-    title: "Core concepts",
+    title: "Architecture",
     links: [
       { title: "Market lifecycle", href: "/docs/market-lifecycle" },
       { title: "State transitions", href: "/docs/state-transitions" },
@@ -19,14 +19,14 @@ export const navigation = [
   {
     title: "Usage guides",
     links: [
-      { title: "Creating a market", href: "/docs/creating-a-market" },
-      { title: "Minting tokens", href: "/docs/minting-tokens" },
-      { title: "Burning shares", href: "/docs/burning-shares" },
-      { title: "Trading tokens (P2P)", href: "/docs/trading-tokens" },
-      { title: "Resolving a market", href: "/docs/resolving-a-market" },
-      { title: "Redeeming winnings", href: "/docs/redeeming-winnings" },
-      { title: "Cancelling a market", href: "/docs/cancelling-a-market" },
-      { title: "Claiming fees", href: "/docs/claiming-fees" },
+      { title: "Creating a market", href: "/docs/usage/creating-a-market" },
+      { title: "Minting tokens", href: "/docs/usage/minting-tokens" },
+      { title: "Burning shares", href: "/docs/usage/burning-shares" },
+      { title: "Trading tokens", href: "/docs/usage/trading-tokens" },
+      { title: "Resolving a market", href: "/docs/usage/resolving-a-market" },
+      { title: "Redeeming winnings", href: "/docs/usage/redeeming-winnings" },
+      { title: "Cancelling a market", href: "/docs/usage/cancelling-a-market" },
+      { title: "Claiming fees", href: "/docs/usage/claiming-fees" },
     ],
   },
   {
@@ -43,7 +43,6 @@ export const navigation = [
   {
     title: "Spells reference",
     links: [
-      { title: "Overview", href: "/docs/spells/overview" },
       { title: "create-market.yaml", href: "/docs/spells/create-market" },
       { title: "mint-shares.yaml", href: "/docs/spells/mint-shares" },
       { title: "burn-shares.yaml", href: "/docs/spells/burn-shares" },
@@ -57,19 +56,31 @@ export const navigation = [
   {
     title: "Technical reference",
     links: [
-      { title: "Project structure", href: "/docs/project-structure" },
-      { title: "Security considerations", href: "/docs/security" },
-      { title: "WASM compatibility", href: "/docs/wasm-compatibility" },
-      { title: "Dependencies", href: "/docs/dependencies" },
-      { title: "Testing", href: "/docs/testing" },
+      { title: "Project structure", href: "/docs/technical/project-structure" },
+      { title: "Security considerations", href: "/docs/technical/security" },
+      {
+        title: "WASM compatibility",
+        href: "/docs/technical/wasm-compatibility",
+      },
+      { title: "Dependencies", href: "/docs/technical/dependencies" },
+      { title: "Testing", href: "/docs/technical/testing" },
     ],
   },
   {
     title: "Resources",
     links: [
-      { title: "How to contribute", href: "/docs/contributing" },
-      { title: "Charms documentation", href: "https://docs.charms.dev" },
-      { title: "License", href: "/docs/license" },
+      { title: "How to contribute", href: "/docs/resources/how-to-contribute" },
+      {
+        title: "Charms documentation",
+        href: "https://docs.charms.dev",
+        external: true,
+      },
+      {
+        title: "BitcoinOS documentation",
+        href: "https://docs.bitcoinos.build/",
+        external: true,
+      },
+      { title: "License", href: "/docs/resources/license" },
     ],
   },
 ];
