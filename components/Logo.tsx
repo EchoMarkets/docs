@@ -1,7 +1,12 @@
 import Image from "next/image";
 import clsx from "clsx";
 
-export function Logomark(props: React.ComponentPropsWithoutRef<typeof Image>) {
+export function Logomark(
+  props: Omit<
+    React.ComponentPropsWithoutRef<typeof Image>,
+    "src" | "alt"
+  >,
+) {
   return (
     <Image
       {...props}
