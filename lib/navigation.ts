@@ -10,10 +10,19 @@ export const navigation = [
   {
     title: "Architecture",
     links: [
-      { title: "Market lifecycle", href: "/docs/market-lifecycle" },
-      { title: "State transitions", href: "/docs/state-transitions" },
-      { title: "Token economics", href: "/docs/token-economics" },
-      { title: "Market parameters", href: "/docs/market-parameters" },
+      {
+        title: "Market lifecycle",
+        href: "/docs/architecture/market-lifecycle",
+      },
+      {
+        title: "State transitions",
+        href: "/docs/architecture/state-transitions",
+      },
+      { title: "Token economics", href: "/docs/architecture/token-economics" },
+      {
+        title: "Market parameters",
+        href: "/docs/architecture/market-parameters",
+      },
     ],
   },
   {
