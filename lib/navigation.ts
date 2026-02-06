@@ -30,17 +30,6 @@ export const navigation = [
     ],
   },
   {
-    title: "API reference",
-    links: [
-      { title: "Overview", href: "/docs/api/overview" },
-      { title: "MarketState", href: "/docs/api/market-state" },
-      { title: "MarketStatus", href: "/docs/api/market-status" },
-      { title: "Operation", href: "/docs/api/operation" },
-      { title: "Outcome", href: "/docs/api/outcome" },
-      { title: "Error handling", href: "/docs/api/errors" },
-    ],
-  },
-  {
     title: "Spells reference",
     links: [
       { title: "create-market.yaml", href: "/docs/spells/create-market" },
