@@ -18,11 +18,13 @@ function PageLink({
   title,
   href,
   dir = "next",
+  external,
   ...props
 }: Omit<React.ComponentPropsWithoutRef<"div">, "dir" | "title"> & {
   title: string;
   href: string;
   dir?: "previous" | "next";
+  external?: boolean;
 }) {
   return (
     <div {...props}>
@@ -32,6 +34,8 @@ function PageLink({
       <dd className="mt-1">
         <Link
           href={href}
+          target={external ? "_blank" : undefined}
+          rel={external ? "noopener noreferrer" : undefined}
           className={clsx(
             "flex items-center gap-x-1 text-base font-semibold text-slate-500 hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-300",
             dir === "previous" && "flex-row-reverse"
